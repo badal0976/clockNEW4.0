@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>stopWatch</title>
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+    <div id="timerContainer">
+        <div class="timer" onclick="startTimer()">00 : 00 : 00</div>
+        
+        <div class=controls>
+          <div class="startTimer reset" onclick="startTimer()" >
+              <i class="fas fa-play"></i>
+            </div>
+          <div class="pauseTimer reset" onclick="pauseTimer()" >
+              <i class="fas fa-pause"></i>
+            </div>
+          <div class="resetTimer reset" onclick="resetTimer()">Reset</div>
+          <div  class=reset onclick="lapTarget()">Lap</div>
+          <div  class=reset onclick="lapClear()">Clear</div>	
+        </div>
+        </div>
+        <ul class=laps></ul>
+    <script src="/app/apps.js"></script>
+</body>
+</html>

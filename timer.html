@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+    <title>Timer</title>
+    <link rel="stylesheet" href="stylet.css">
+</head>
+
+<body>
+    <div class=timer>
+        <div class=btns>
+            <button class=btn value=20>20 sec</button>
+            <button class=btn value=60>1 Min</button>
+            <button class=btn value=120>2 Min</button>
+            <button class=btn value=1800>30 min</button>
+        </div>
+        <form name=myForm id=form>
+            <input name=custom class=tn placeholder="Enter your time in minutes..">
+        </form>
+    </div>
+
+    <div class=diplay_time>
+        <h1 class=timeLeft></h1>
+        <h3 class=thenTime>Waiting for the command</h3>
+    </div>
+    <script src="appt.js"></script>
+</body>
+
+</html>
