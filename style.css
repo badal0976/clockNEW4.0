@@ -1,0 +1,44 @@
+html {
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+body {
+  margin: 0;
+  background: #99d98c;
+  height: 100vh;
+}
+.linktree {
+  margin: 50px auto;
+  width: 60%;
+  background: #168aad;
+  text-align: center;
+  padding: 10px;
+  box-shadow: 0 0 15px 6px rgba(0, 0, 0, 0.4);
+  transform: scale(0.98);
+  transition: all 0.1s;
+}
+.linktree:hover {
+  transform: scale(1);
+}
+.links {
+  margin-top: 50px;
+}
+.links a {
+  text-decoration: none;
+  padding: 15px 20px;
+  background: #52b69a;
+  color: #184e77;
+  border: 1px solid;
+  margin: 30px 50px;
+  display: block;
+  transition: all 0.1s;
+}
+.lnks a:hover {
+  font-size: 22px;
+  padding: 18px 20px;
+  opacity: 1;
+}
+h1,
+h3 {
+  color: #184e77;
+}
